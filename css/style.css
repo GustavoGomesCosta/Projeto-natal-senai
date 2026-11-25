@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    background-image: url(../img/borda42.jpg);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    
+}
+nav{
+    position: fixed; 
+    left: 10px; 
+    top: 10px; 
+    width: 160px; 
+    height: auto; 
+    background-color: #830002;
+    border-radius: 15px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #F9ECE5;
+    margin: 20px 5px;
+}
+.conteudo{
+    margin-left: 180px;
+}
+.trava{
+    color: #F9ECE5;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1px;
+}
+
+h1{
+    margin-bottom: 24px;
+}
+
+.card{
+    background-color: #3E4E39;
+    padding: 30px 20px;
+    border-radius: 15px; 
+    margin: 40px auto;
+    width: 500px;
+    max-width: 800px;
+    color: #7C927A;
+    font-size: 15px;
+    overflow: hidden;
+}
+.card-A{
+    background-color: #F4C272;
+    padding: 40px 20px;
+    border-radius: 15px; 
+    margin: 40px auto;
+    width: 500px;
+    max-width: 800px;
+    color: #3E4E39;
+    font-size: 15px;
+    overflow: hidden;
+}
+.card img,
+.card-A img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+header{
+    background-color:  #7C927A;
+    padding: 25px 15px;
+    margin: 10px;
+    margin-left: 180px;
+    border-radius: 15px;
+    border-color: #000;
+}
+.video-player {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+/*
+Linha Superior
+
+• Brisa de Inverno (Cinza claro / gelo): #D1CFD3
+• Presença do Rei (Dourado / mostarda suave): #F4C272
+• Dia Feliz (Vermelho vibrante): #B33E3F
+
+Linha Inferior
+
+• Cabaré (Vinho / bordô escuro): #722F2E
+• Jardim Botânico (Verde sálvia / musgo claro): #7C927A
+• Verde Sertão (Verde musgo escuro / militar): #3E4E39
+*/
